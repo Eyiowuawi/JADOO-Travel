@@ -751,18 +751,19 @@ body {
 
 .section6-testimonials {
     width: 85%;
-    margin: auto;
-    margin-bottom: 10rem;
+    margin: 10rem auto;
 }
 
 .testimonial-container {
     width: 100%;
     display: flex;
+    justify-content: space-between;
 }
 
 .testimonial-leftflex {
     width: 50%;
-    margin-right: 35rem;
+    background: #FFFFFF;
+    /* margin-right: 35rem; */
 }
 
 .testimonial-leftflex-content {
@@ -809,41 +810,34 @@ body {
 }
 
 .testimonial-flexright {
-    width: 50%;
-    height: 21rem;
+    width: 38%;
+    height: 18rem;
     position: relative;
-    margin-right: 35rem;
-    /* margin-left: 20rem; */
 }
 
 .testimonial-div {
-    width: 504px;
-    height: 245px;
+    width: 90%;
+    height: 80%;
     position: relative;
     border-radius: 10px;
     background: #FFFFFF;
     box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02), 0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852), 0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481), 0px 20px 13px rgba(0, 0, 0, 0.01), 0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185), 0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
 }
 
-.test-div {
+.test-div-1 {
+    /* display: none; */
     position: absolute;
     top: 0;
     left: 0;
     z-index: 5;
 }
 
-.test-div2 {
+.test-div-2 {
+    /* display: none; */
     position: absolute;
     bottom: 0;
     right: 0;
-    z-index: -2;
-}
-
-.test-div3 {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    z-index: -2
+    /* z-index: -2; */
 }
 
 .caro-img {
@@ -854,7 +848,7 @@ body {
 }
 
 .testimonial-div-content {
-    /* width: 90%; */
+    width: 90%;
     padding: 2rem;
 }
 
@@ -893,7 +887,21 @@ body {
     height: 100%;
 }
 
+.toggleup {
+    width: 10%;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.toggleup-button {
+    width: 20px;
+}
+
 .toggleup img {
+    width: 100%;
+    height: 100%;
     padding: 1rem 0;
 }
 

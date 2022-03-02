@@ -1305,12 +1305,14 @@ body {
 
 @media (max-width:550px) {
     .caro-p1 {
-        line-height: 1.1rem;
+        font-size: 0.5rem;
+        line-height: 1rem;
         padding-left: 0.5rem;
         padding-bottom: 0.5rem;
     }
     .caro-h5 {
-        line-height: 1.7rem;
+        font-size: 0.5rem;
+        line-height: 1rem;
         padding-bottom: 0.5rem;
     }
     .form-7 {

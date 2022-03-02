@@ -8,6 +8,11 @@
     list-style-type: none;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
  :root {
     --google-Sans400: 'Product Sans', sans-serif;
     --google-Sans500: 'Product Sans Medium', sans-serif;

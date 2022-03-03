@@ -807,8 +807,13 @@ body {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    border: 1px solid black;
+    border: 0;
+    background: rgba(0, 0, 0, .3);
     /* background-color: black; */
+}
+
+.dots.curent-slide {
+    background: rgba(0, 0, 0, .75);
 }
 
 .testimonial-flexright {

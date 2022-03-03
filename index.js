@@ -5,4 +5,8 @@ toggleButton.addEventListener('click', () => {
     sideBar.classList.toggle('active')
 })
 
-//the Code that controls the carousel under the testimonial section
+// //the Code that controls the carousel under the testimonial section
+// const track = document.querySelector('testimonial-flexright');
+// const slides = Array.from(track.children);
+// console.log(slides)
+//

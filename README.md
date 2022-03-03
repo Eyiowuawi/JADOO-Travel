@@ -50,8 +50,8 @@ I want to focus more on js, media query, and css animations.
 - [Google Fonts](https://www.fonts.google.com) - This help me with the various fonts used in my project.
 - [Image color picker](https://www.imagecolorpicker.com) - This ihelp me in picking colors from the design given to me.
 - [youtube tutorials](https://www.youtube.com ) -the tutorials on YouTube by Kelvin Powell and many others were a great resource for me.
-- [w3schools] (http://w3schools.com)
-- [Stack overflow] (http://stackoverflow.com)
+- [w3schools](http://w3schools.com) - this was a major resource to get used to css, JavaScript and html
+- [Stack overflow](http://stackoverflow.com) - this was a go back place to resolve some of the bugs I had using git and GitHub.
 
 ## Author
 

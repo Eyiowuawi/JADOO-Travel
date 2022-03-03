@@ -24,10 +24,7 @@ Users should be able to:
 
 Solution Url: (https://github.com/Eyiowuawi/JADOO-Travel)
 
-Vercel link:
-jadoo-travel.vercel.app
-jadoo-travel-eyiowuawi.vercel.app
-jadoo-travel-git-master-eyiowuawi.vercel.app
+Vercel Url: (https://jadoo-travel.vercel.app)
 
 
 ### My Process

@@ -10,11 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="http://fonts.cdnfonts.com/css/google-sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@500;600;700&family=Volkhov:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@500;600;700&family=Volkhov:wght@700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <section class="section1">
+    <section class="section1  ">
         <nav class="nav-bar">
             <div class="nav-container">
                 <div class="nav-logo">
@@ -57,7 +58,7 @@
                 <svg class="svg toggle-button" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z"/></svg>
         </nav>
         </div>
-        <div class="section1-content">
+        <div class="section1-content animate__animated animate__rotateIn">
             <div class="left-content">
                 <div class="red-line">
                     <img src="./images/Decore.png" alt="red-line">
@@ -253,15 +254,15 @@
                     <h5>Testimonials </h5>
                     <h3>What people say <br>about Us.</h3>
                     <div class="carousel-dots">
-                        <div class="dots"></div>
+                        <div class="dots current"></div>
                         <div class="dots"></div>
                         <div class="dots"></div>
                     </div>
                 </div>
             </div>
-            <div class="testimonial-rightside">
-                <div class="testimonial-flexright">
-                    <div class="testimonial-div test-div-1">
+            <div class="testimonial-rightside ">
+                <div class="testimonial-flexright sliders">
+                    <div class="testimonial-div slide current">
                         <div class="testimonial-div-content">
                             <div class="caro-img">
                                 <img src="./img/testimonial/author.png" alt="author">
@@ -271,7 +272,7 @@
                             <p class="caro-p2">Lahore, Pakistan</p>
                         </div>
                     </div>
-                    <div class="testimonial-div test-div-2">
+                    <div class="testimonial-div slide ">
                         <div class="testimonial-div-content">
                             <div class="caro-img">
                                 <img src="./img/testimonial/author2.png" alt="author">
@@ -281,7 +282,7 @@
                             <p class="caro-p2">CEO of Button</p>
                         </div>
                     </div>
-                    <div class="testimonial-div test-div-2">
+                    <div class="testimonial-div slide">
                         <div class="testimonial-div-content">
                             <div class="caro-img">
                                 <img src="./img/testimonial/author3.png" alt="author">
@@ -291,13 +292,13 @@
                             <p class="caro-p2">Lahore, Pakistan</p>
                         </div>
                     </div>
-                </div>
-                <div class="toggleup">
-                    <div class="toggleup-button toggleup-up ">
-                        <img src="./images/Vector 2.png" alt="">
-                    </div>
-                    <div class="toggleup-button toggleup-down">
-                        <img src="./images/Vector 3.png" alt="">
+                    <div class="toggleup">
+                        <div class="toggleup-button toggleup-up prev ">
+                            <img src="./images/Vector 2.png" alt="prev">
+                        </div>
+                        <div class="toggleup-button toggleup-down next">
+                            <img src="./images/Vector 3.png" alt="next">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -408,6 +409,7 @@
     </div>
 
     <script src="./index.js"></script>
+    <script src="./carousel.js"></script>
 </body>
 
 </html>
